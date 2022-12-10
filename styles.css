@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    border: 2px solid black;
+    background: lightcoral;
+    border-radius: 50px;
+    position: fixed;
+
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: antiquewhite;
+    padding: 5px;
+    font-size: 15px;
+   
+    }
+    /*.menu a::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+
+}*/
+.menu a:hover{
+color: black;
+text-shadow: 2px 3px 5px white;
+transition: all ease-in 2s linear;
+
+}
+.icons i{
+padding: 5px; 
+color: black;  
+}
+.icons i:hover{
+background:linear-gradient(0,0,0,0.2);
+text-shadow: 3px 5px 12px white;
+}
+.icons a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: azure;
+}
+.icons img{
+    border-radius: 50%;
+    padding:0px 5px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+.search-bar h3{
+    position: relative;
+    color: lightskyblue;
+    text-shadow: 2px 3px 5px white;
+   
+}
+/* lorem
+lorme
+ */
+
+
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+
+ .btn-1{
+    background-color: blue;
+    color: bisque;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+
+.input-group{
+    padding:50px 50px;
+    margin:25px 30px;
+}
+.input-group span{
+    background-color: rgb(59, 149, 252);
+}
+
+
+
+
+
+
+
+/* section 3 */
+.row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+     padding: 10px;
+     /* margin:10px; */
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .r1{/* lorem
+    lorme
+     */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+/* lorem
+lorme
+ */
+    
+      flex:30%;
+  }
+  .r2{
+  flex:70%;
+  }
+
+
+/* .row .r2{ */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+/* } */
+.row .r2 .kaards{
+    display: flex;
+}
+.row .r2 .kaards .andar{
+    border:2px;
+    margin:5px;
+    padding: 30px;
+    transition-duration:1s ;
+    /* grid-template-columns: auto auto auto; */
+}
+.row .r2 .kaards .andar:hover{
+    border:2px;
+    margin:5px;
+    padding: 40px;
+    /* grid-template-columns: auto auto auto; */
+}
+.row .left #hee{
+    background-color: rgb(59, 149, 252,0.5);
+    color:rgb(38, 38, 114);
+
+    /* margin:20px 15px; */
+    border-radius: 3px;
+    /* padding:10px; */
+}
+/*  */
